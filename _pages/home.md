@@ -8,10 +8,10 @@ header:
 
 
 <div align='center'>
-    <span style="font-family: verdana; font-size: 50px">Are current autonomous vehicles really safe and comfort? </span>
+    <span style="font-family: Georgia, serif; font-size: 50px">Are current autonomous vehicles really safe and comfort? </span>
 </div>
 <div align='center'>
-    <span  style="font-family: verdana; font-size: 50px">No! Their feet and legs are in the air. </span>
+    <span  style="font-family: Georgia, serif; font-size: 50px">No! Their feet and legs are in the air. </span>
 </div>
 <br>
 
