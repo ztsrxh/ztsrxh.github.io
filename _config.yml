@@ -1,0 +1,51 @@
+title: Road Surface X Dataset
+
+name: RSXD
+
+repository: ztsrxh/ztsrxh.github.io
+
+url: https://ztsrxh.github.io/
+baseurl: /
+
+# Build settings
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+plugins:
+  - jekyll-include-cache
+
+minimal_mistakes_skin: "RSXD_skin"
+
+include:
+  - _data
+  - _pages
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: splash
+      author_profile: true
+      analytics: true
+
+logo: "/assets/images/logo.png"
+
+footer:
+  links:
+    - label: "RSXD"
+      icon: "fas fa-fw fa-car"
+      url: "https://ztsrxh.github.io/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://ztsrxh.github.io/"
+
+atom_feed:
+  hide: true
+
+# Google Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-X3Y97F50J6"
+    anonymize_ip: false # default

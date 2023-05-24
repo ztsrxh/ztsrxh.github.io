@@ -1,0 +1,11 @@
+main:
+  - title: "RSCD"
+    url: /rscd/
+  - title: "RSRD"
+    url: /rsrd/
+  - title: "Hardware Platform"
+    url: /sensors/
+  - title: "Download"
+    url: /download/
+  - title: "About Me"
+    url: /author/
