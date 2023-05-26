@@ -45,7 +45,7 @@ The depth and disparity values are multiplied by 256 before saving.
 **Note** that for a better registration accuracy, the point clouds may be cropped, and only the points near the camera's perspective are preserved.  
 
 For localization and SfM applications, we provide **14** continuous sequences each of **8 seconds** long. The raw position, pose, and velocity data from the RTK and IMU are included. 
-Refer the description file in the dataset for more details. The dataset is divided into train set with **2500** samples and test set with **300** samples.
+Refer the description file in the dataset and the provided [development kit](/download) for more details. The dataset is divided into train set with **2500** samples and test set with **300** samples.
 
 ##  Statistics and Samples
 ### Precision Evaluation
@@ -116,23 +116,6 @@ We also evaluate the number of pixels with GT labels of every sample. The histog
   <img  src="/assets/images/RSRD-sample3d.png" alt=""></a>
 </figure>
 
-
-[//]: # (<figure class="half">)
-
-[//]: # (  <video autoplay loop muted playsinline preload="auto" width="610" height="400">)
-
-[//]: # (    <source src="/assets/videos/concrete-hole.webm" type="video/webm">)
-
-[//]: # (  </video>)
-
-[//]: # ()
-[//]: # (  <a href="/assets/images/RSRD-sample1d.png">)
-
-[//]: # (  <img  src="/assets/images/RSRD-sample1d.png" alt=""></a>)
-
-[//]: # (  <figcaption>The number of annotated object instances &#40;left&#41; and the number of lane instances &#40;right&#41;. Note that the objects are split based on whether or not they are annotated in 2D and 3D. </figcaption>)
-
-[//]: # (</figure>)
 
 
 
