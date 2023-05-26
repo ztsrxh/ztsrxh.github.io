@@ -1,7 +1,7 @@
 ---
 permalink: /author/
 categories: jekyll update
-title:  "About Me"
+title:  "About Us"
 layout: splash
 gallery:
 
