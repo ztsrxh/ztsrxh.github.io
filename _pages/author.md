@@ -28,5 +28,7 @@ gallery:
 My research interests include vehicle&tire dynamics, computer vision and their engineering applications in road surface perception for safer and more comfort autonomous driving.
 
 ## Acknowledgements 
+<p style="text-align: justify;">
 The hardware platform and experiments are based on the resources of our lab. The dataset would not be possible without the support of several individuals within our lab.
 We would like to thank, without any particular order, the following people for their contributions to the dataset: Prof. Yintao Wei, Jingcheng Lyu, Junxiang He, Delei Min, and engineers from Cosmartor Suspension Tech Co., Ltd.
+</p>
