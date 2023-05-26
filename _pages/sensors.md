@@ -37,8 +37,6 @@ To reduce the CPU burden, we directly collect data with multi-process in Python 
   <figcaption>Sensor configurations.</figcaption>
 </figure>
 
-**overview, installation position**
-
 ### Cameras
 <p style="text-align: justify;">
 We adopt USB camera LI-AR023ZWDR from Leopard Imaging. It has 1/2.7' CMOS and 1920*1080 resolution (2M). It generates images with up to 105dB, which guarantees imaging quality in severe brightness change.
