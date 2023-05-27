@@ -7,7 +7,7 @@ categories: jekyll update
 
 To be continued.
 
-<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xayzzlny" method="post"  target="stop">
+<form action="https://formspree.io/f/xayzzlny" method="post" target="stop">
   <fieldset id="fs-frm-inputs">
     <label for="full-name">Full Name</label>
     <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
