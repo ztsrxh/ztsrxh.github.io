@@ -5,7 +5,8 @@ categories: jekyll update
 ---
 <br>
 
-To be continued.
+## Download RSXD
+Please submit the following form. We will send you the download links based on your provided information as soon as possible. 
 
 <form action="https://formspree.io/f/xayzzlny" method="post">
   <fieldset id="fs-frm-inputs">
@@ -16,7 +17,7 @@ To be continued.
     <label for="university">Affiliation</label>
     <input type="text" name="university" id="university" placeholder="university/institute" required="">
     <label for="message">Interstes</label>
-    <textarea rows="5" name="message" id="message" placeholder="Which dataset you need / your research interests / any other questions." required=""></textarea>
+    <textarea rows="5" name="message" id="message" placeholder="Your research interests/ which dataset you need / any other questions." required=""></textarea>
   </fieldset>
   <input type="submit" value="Submit">
 </form>
