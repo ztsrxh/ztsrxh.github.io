@@ -13,11 +13,11 @@ Please submit the following form. We will send you the download links based on y
     <label for="full-name">Full Name</label>
     <input type="text" name="name" id="full-name" placeholder="name" required="">
     <label for="email-address">Email Address</label>
-    <input type="email" name="_replyto" id="email-address" placeholder="email" required="">
+    <input type="email" name="email" id="email-address" placeholder="email" required="">
     <label for="university">Affiliation</label>
     <input type="text" name="university" id="university" placeholder="university/institute" required="">
     <label for="message">Interests</label>
-    <textarea rows="5" name="message" id="message" placeholder="Your research interests/ which dataset you need / any other questions." required=""></textarea>
+    <textarea rows="5" name="message" id="message" placeholder="Your research interests / which dataset you need / any other questions." required=""></textarea>
   </fieldset>
   <input type="submit" value="Submit">
 </form>
