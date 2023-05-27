@@ -16,7 +16,7 @@ Please submit the following form. We will send you the download links based on y
     <input type="email" name="_replyto" id="email-address" placeholder="email" required="">
     <label for="university">Affiliation</label>
     <input type="text" name="university" id="university" placeholder="university/institute" required="">
-    <label for="message">Interstes</label>
+    <label for="message">Interests</label>
     <textarea rows="5" name="message" id="message" placeholder="Your research interests/ which dataset you need / any other questions." required=""></textarea>
   </fieldset>
   <input type="submit" value="Submit">
