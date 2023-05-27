@@ -7,7 +7,8 @@ categories: jekyll update
 
 ## Download RSXD
 The **RSCD** is in a `.zip` file, containing three folders: *train*, *vali*, *test*.
-The **RSRD** contains *train*, *test*, *description file*, and *development kit*.
+
+The **RSRD** contains *train*, *test*, *description file*. The *development kit* for parsing the data is avaliable [here]().
 
 Please submit the following form. We will send you the download links based on your provided information as soon as possible. 
 
