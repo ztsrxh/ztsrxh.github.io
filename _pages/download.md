@@ -7,25 +7,18 @@ categories: jekyll update
 
 To be continued.
 
-<div class="row">
-  <div class="col-lg-8 mx-auto">
-    <div class="bg-white rounded text-center p-5 shadow-down">
-      <h4 class="mb-80">Contact Form</h4>
-      <form action="https://formspree.io/f/xayzzlny" method="POST" class="row">
-        <div class="col-md-6">
-          <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
-        </div>
-        <div class="col-md-6">
-          <input type="email" id="email" name="_replyto" placeholder="Email Address" class="form-control px-0 mb-4">
-        </div>
-        <div class="col-12">
-          <textarea name="message" id="message" class="form-control px-0 mb-4"
-            placeholder="Type Message Here"></textarea>
-        </div>
-        <div class="col-lg-6 col-10 mx-auto">
-          <button type="submit" class="btn btn-primary w-100">send</button>
-        </div>
-      </form>
-    </div>
+
+<form action="https://formspree.io/f/xayzzlny" method="POST" class="row">
+  <div class="col-lg-6">
+    <input type="text" class="form-control mb-4" name="name" id="name" placeholder="Name">
   </div>
-</div>
+  <div class="col-lg-6">
+    <input type="email" class="form-control mb-4" name="_replyto" id="email" placeholder="Email">
+  </div>
+  <div class="col-12">
+    <textarea name="message" id="message" class="form-control mb-4" placeholder="Message..."></textarea>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit</button>
+  </div>
+</form>
