@@ -7,7 +7,7 @@ categories: jekyll update
 
 To be continued.
 
-<form action="https://formspree.io/f/xayzzlny" method="post" target="stop">
+<form action="https://formspree.io/f/xayzzlny" method="post">
   <fieldset id="fs-frm-inputs">
     <label for="full-name">Full Name</label>
     <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
@@ -19,7 +19,7 @@ To be continued.
   </fieldset>
   <input type="submit" value="Submit">
 </form>
-<iframe  name="stop" style="display:none;"></iframe>
+
 
 
 <!-- <form action="https://formspree.io/f/xayzzlny" method="POST" class="row">
