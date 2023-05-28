@@ -10,11 +10,11 @@ The **RSCD** is in a `.zip` file, containing three folders: *train*, *vali*, *te
 
 The **RSRD** contains *train*, *test*, *description file*. The *development kit* for parsing the data is avaliable [here]().
 
-Please submit the following form. We will send you the download links based on your provided information as soon as possible. 
+Please submit the following form, after which you will get the download links.
 
 
 <form id="contactform" action="https://formsubmit.io/send/3e9c2618-1c27-4336-9d36-fc40c492b434" method="POST">
-  <input name="_redirect" type="hidden" id="name" value="https://thu-rsxd.com/author/">
+  <input name="_redirect" type="hidden" id="name" value="https://thu-rsxd.com/dxhdiefb/">
   <fieldset id="fs-frm-inputs">
     <label for="full-name">Full Name</label>
     <input type="text" name="name" id="full-name" placeholder="name" required="">
