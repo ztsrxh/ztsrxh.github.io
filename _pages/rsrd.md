@@ -37,6 +37,12 @@ After balancing the accuracy and workload, we fuse 4~6 LiDAR frames. However, th
 Therefore, we fine-tune the algorithm parameters in a grid-search manner for every sample to ensure the alignment accuracy. 
 </p>
 
+<figure class="align-center" style="width: 70%; margin-top: 0;">
+  <a href="/assets/images/image_with_points.png">
+  <img src="/assets/images/image_with_points.png" alt=""></a>
+  <figcaption>Multi-frame fused points and the projection onto image.</figcaption>
+</figure>
+
 ## Dataset Contents
 
 The fused LiDAR frames are then projected onto the image plane of left camera with calibration parameters. We generate both the ground-truth disparity and depth maps. 
