@@ -55,11 +55,11 @@ Refer the description file in the dataset and the provided [development kit](/do
 
 ##  Statistics and Samples
 ### Precision Evaluation
-We evaluate the fusion accuracy on planes such as even roads or road edge stones. The average alignment error in horizontal and vertical direction of road surface is **&plusmn;1.2cm**.
+We evaluate the fusion accuracy on planes such as even roads or road edge stones. The average alignment error in horizontal and vertical direction of road surface is **&plusmn;1.3cm**.
 
 To illustrate the overall precision of the RSRD, we calculate the disparity errors. This metric is a comprehensive performance assessment of the dataset as it involves both the errors in the sensor acquisition, fusion, and calibration processes.
 We pick corresponding pixels at different positions of the stereo images and calculate their errors with the LiDAR-measured disparity values. Although pixels are discrete, we pick continuous coordinate values with maximum corresponding possibility. 
-The average error is **0.9 pixel**, which is at sub-pixel level.
+The average error is **0.6 pixel**, which is at sub-pixel level.
 
 ### Point Cloud Density
 We also evaluate the number of pixels with GT labels of every sample. The histogram is shown below.
