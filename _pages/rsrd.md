@@ -50,7 +50,7 @@ The rectified stereo images are saved in `.jpg` format with save quality `100`. 
 The depth and disparity values are multiplied by 256 before saving.
 **Note** that for a better registration accuracy, the point clouds may be cropped, and only the points near the camera's perspective are preserved.  
 
-For localization and SfM applications, we provide **14** continuous sequences each of **8 seconds** long. The raw position, pose, and velocity data from the RTK and IMU are included. 
+For localization and SfM applications, we provide **15** continuous sequences each of **8 seconds** long. The raw position, pose, and velocity data from the RTK and IMU are included. 
 Refer the description file in the dataset and the provided [development kit](/download) for more details. The dataset is divided into train set with **2500** samples and test set with **300** samples.
 
 ##  Statistics and Samples
