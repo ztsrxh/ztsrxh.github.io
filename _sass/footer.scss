@@ -48,8 +48,11 @@
 
 .page__footer-copyright {
   font-family: $global-font-family;
-  font-size: $type-size-8;
+  font-size: 20%;
   font-style: italic;
+  font-weight: 100;
+  font-stretch: 50%;
+  font-size-adjust: 0.5;
 }
 
 .page__footer-follow {
