@@ -42,7 +42,7 @@ Most significantly, they offer no detailed ground-truth information about road s
 </p>
 
 Our **RSXD** overcome this problem. This is a dataset specifically built for road surface perception.The **RSCD** is an image dataset for classifying road conditions, providing
-detailed road friction, material, and unevenness level annotations. The **RSRD** is a multi-modal dataset for reconstructing road elevation, providing stereo disparity/depth, point cloud, and location/pose labels. 
+detailed road friction, material, and unevenness level annotations. The **RSRD** is a multi-modal dataset for reconstructing road elevation, providing recitfied stereo images, stereo disparity, depth, point cloud, and location/pose labels. 
 
 ## How RSXD?
 For the target of practical engineering applications, we pay much attention to expanding the diversity of the dataset. We conduct experiments in various weather/seasons, urban/rural areas, 
@@ -54,7 +54,8 @@ All the data is processed by initial annotation and further quality inspection. 
 </p>
 
 
-## Citations
+## Usage and Citations
+The RSXD (including RSCD and RSRD) is licensed under the permissive CC BY-NC.
 
 The RSXD is open to academic research, not for any commercial use. If your works use the dataset, please cite:<br>
 - T. Zhao, et.al. <a href="https://ieeexplore.ieee.org/abstract/document/10101715">"A Comprehensive Implementation of Road Surface Classification for Vehicle Driving Assistance: Dataset, Models, and Deployment". </a> *IEEE Transactions on Intelligent Transportation Systems*, 2023.<br>
