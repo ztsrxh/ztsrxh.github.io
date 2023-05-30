@@ -47,11 +47,10 @@ Therefore, we fine-tune the algorithm parameters in a grid-search manner for eve
 
 The fused LiDAR frames are then projected onto the image plane of left camera with calibration parameters. We generate both the ground-truth disparity and depth maps. 
 The rectified stereo images are saved in `.jpg` format with save quality `100`. The depth and disparity maps are saved in lossless `.png` format, and the point clouds are in `.pcd` format.
-The depth and disparity values are multiplied by 256 before saving.
-**Note** that for a better registration accuracy, the point clouds may be cropped, and only the points near the camera's perspective are preserved.  
+The depth and disparity values are multiplied by `256` before saving. **Note** that for a better registration accuracy, the point clouds may be cropped, and only the points near the camera's perspective are preserved.  
 
-For localization and SfM applications, we provide **15** continuous sequences each of **8 seconds** long. The raw position, pose, and velocity data from the RTK and IMU are included. 
-Refer the description file in the dataset and the provided [development kit](/download) for more details. The dataset is divided into train set with **2500** samples and test set with **300** samples.
+For MVS and SfM applications, we provide **15** continuous sequences each of **8 seconds** long. The raw position, pose, and velocity data from the RTK and IMU are included. 
+Refer the description file in the dataset and the provided [development kit](https://github.com/ztsrxh/RSRD_dev_kit) for more details. The dataset is divided into train set with **2500** samples and test set with **300** samples.
 
 ##  Statistics and Samples
 ### Precision Evaluation
