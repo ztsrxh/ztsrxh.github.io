@@ -18,13 +18,11 @@ The RSRD provides **high-precision**, **multi-modal**, and **multi-condition** s
 This dataset can act as a benchmark for **monocular depth estimation**, **multi-view stereo**, **binocular stereo matching**, **structure from motion**, or direct **point cloud processing**.
 
 ## Data Acquisition
-The raw data is acquired with our real-vehicle experiment platform with full sensor suit. For a detailed description of the sensor configuration, please visit the [Sensor setup](/sensors) section.
-
-<p style="text-align: justify;">
+The raw data is acquired with our real-vehicle experiment platform with full sensor suit. See the [Sensor setup](/sensors) section for more details.
 The experiments are conducted from March to April, 2023 in Qingdao, China. We searched representative even and uneven roads in urban and rural areas. Data is collected on both concrete and asphalt roads in sunny days.
-To reach a higher label accuracy and prevent image motion blur, the velocity is limited under 40 km/h. Since we consider only the road surface area, the horizontal viewing angle of the mechanical rotating LiDAR is set to 100 degrees. 
-The acquisition frequency for the stereo cameras and LiDAR is set to 5Hz.
-</p>
+
+To reach a higher label accuracy and prevent image motion blur, the velocity is limited under `40 km/h`. Since we consider only the road surface area, the horizontal viewing angle of the mechanical rotating LiDAR is set to `100 degrees`. The acquisition frequency for the stereo cameras and LiDAR is set to `5Hz`.
+
 
 ## Multi-frame Point Cloud Fusion
 
@@ -33,8 +31,7 @@ Since the single-frame LiDAR point cloud is very sparse, accumulating nearby fra
 </p>
 
 <p style="text-align: justify;">
-Motion compensation and initial alignment are first conducted to the nearby 4~6 LiDAR frames with the high-precision IMU and RTK data. Then ICP registration algorithm and the improved forms further fine-tune the alignment transformation.
-We fine-tune the algorithm parameters in a grid-search manner for every sample to ensure the alignment accuracy.
+Motion compensation and initial alignment are first conducted to the nearby 4~6 LiDAR frames with the high-precision IMU and RTK data. Then ICP registration algorithm and the improved forms further fine-tune the alignment transformation.We fine-tune the algorithm parameters in a grid-search manner for every sample to ensure the alignment accuracy.
 </p>
 
 <!-- However, the geometric features near road surface area are in lack, and the distance intervals of LiDAR scan lines on road surface are nonlinear. Also, the road scenarios are variable and the algorithms are not robust to all samples. That brings much challenge to the high-precision registration. -->
@@ -46,7 +43,7 @@ We fine-tune the algorithm parameters in a grid-search manner for every sample t
 <img src="/assets/images/image_with_points.png"  alt=""></a>
 <a href="/assets/images/image_with_points2.jpg">
 <img src="/assets/images/image_with_points2.jpg" alt=""></a>
-<figcaption>Multi-frame fused and single frame point cloud.</figcaption>
+<figcaption>Multi-frame fused and single-frame point cloud.</figcaption>
 </figure>
 
 
@@ -59,7 +56,7 @@ The depth and disparity values are multiplied by `256` before saving. **Note** t
 For SfM/MVS or localization applications, we provide **15** continuous sequences each of **8 seconds** long. The raw position, pose, and velocity data from the RTK and IMU are included. 
 Refer the description file and the [development kit](https://github.com/ztsrxh/RSRD_dev_kit) for more details. The dataset is divided into train set with **2500** samples and test set with **300** samples.
 
-Further, we provide extra **13K** samples with sparse labels (only single frame LiDAR). This sparse sub-set can be used for weakly supervised or unsupervised learning.
+Further, we provide extra **13K** samples with sparse labels (only single frame LiDAR, as shown above). This sparse sub-set can be used for weakly supervised or unsupervised learning.
 It's not divided it into train or test sets. **Note** that we do not recommend using this set for dense and accurate reconstruction.
 
 ##  Statistics and Samples
