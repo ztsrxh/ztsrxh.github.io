@@ -14,15 +14,16 @@ Road surface classification just gives a condition category information, which i
 recover the road surface up to the macro-texture level, which provides the potential of revealing the joint function mechanism between friction and roughness.
 </p>
 
-The RSRD provides **high-precision**, **multi-modal**, and **multi-condition** stereo images and point cloud data. It contains **2800** data pairs.This dataset can act as a benchmark for **monocular depth estimation**, **multi-view stereo**, **binocular stereo matching**, **structure from motion**, or direct **point cloud processing**.
+The RSRD provides **high-precision**, **multi-modal**, and **multi-condition** stereo images and point cloud data. It contains **2800** data pairs with dense point cloud labels and XXX pairs with sparse labels. 
+This dataset can act as a benchmark for **monocular depth estimation**, **multi-view stereo**, **binocular stereo matching**, **structure from motion**, or direct **point cloud processing**.
 
 ## Data Acquisition
-The raw data is acquired with our real-vehicle experiment platform with full sensor suit, which includes **stereo cameras**, **GNSS-RTK**, **LiDAR**, **IMU**, vehicle **CAN bus**, and an un-sprung mass **accelerometer**. 
-The sensors are hardware-synchronized or tagged with timestamp. For a detailed description of the sensor configuration, please visit the [Sensor setup](/sensors) section.
+The raw data is acquired with our real-vehicle experiment platform with full sensor suit. For a detailed description of the sensor configuration, please visit the [Sensor setup](/sensors) section.
 
 <p style="text-align: justify;">
 The experiments are conducted from March to April, 2023 in Qingdao, China. We searched representative even and uneven roads in urban and rural areas. Data is collected on both concrete and asphalt roads in sunny days.
-To reach a higher label accuracy and prevent image motion blur, the velocity is limited under 40 km/h. Since we consider only the road surface area, the horizontal viewing angle of the mechanical rotating LiDAR is set to 100 degrees. The acquisition frequency for the stereo cameras and LiDAR is set to 5Hz.
+To reach a higher label accuracy and prevent image motion blur, the velocity is limited under 40 km/h. Since we consider only the road surface area, the horizontal viewing angle of the mechanical rotating LiDAR is set to 100 degrees. 
+The acquisition frequency for the stereo cameras and LiDAR is set to 5Hz.
 </p>
 
 ## Multi-frame Point Cloud Fusion
@@ -32,25 +33,43 @@ Since the single-frame LiDAR point cloud is very sparse, accumulating nearby fra
 </p>
 
 <p style="text-align: justify;">
-Motion compensation and initial alignment are first conducted to the nearby frames with the high-precision IMU and RTK data. Then ICP registration algorithm and the improved forms further fine-tune the alignment transformation. 
-After balancing the accuracy and workload, we fuse 4~6 LiDAR frames. However, the geometric features near road surface area are in lack, and the distance intervals of LiDAR scan lines on road surface are nonlinear. Also, the road scenarios are variable and the algorithms are not robust to all samples. That brings much challenge to the high-precision registration.
-Therefore, we fine-tune the algorithm parameters in a grid-search manner for every sample to ensure the alignment accuracy. 
+Motion compensation and initial alignment are first conducted to the nearby 4~6 LiDAR frames with the high-precision IMU and RTK data. Then ICP registration algorithm and the improved forms further fine-tune the alignment transformation.
+We fine-tune the algorithm parameters in a grid-search manner for every sample to ensure the alignment accuracy.
+
+[comment]: <> (However, the geometric features near road surface area are in lack, and the distance intervals of LiDAR scan lines on road surface are nonlinear. Also, the road scenarios are variable and the algorithms are not robust to all samples. That brings much challenge to the high-precision registration.)
 </p>
 
-<figure class="align-center" style="width: 70%; margin-top: 0;">
-  <a href="/assets/images/image_with_points.png">
-  <img src="/assets/images/image_with_points.png" alt=""></a>
-  <figcaption>Multi-frame fused points and the projection onto image.</figcaption>
+[comment]: <> (<figure class="align-center" style="width: 70%; margin-top: 0;">)
+
+[comment]: <> (  <a href="/assets/images/image_with_points.png">)
+
+[comment]: <> (  <img src="/assets/images/image_with_points.png" alt=""></a>)
+
+[comment]: <> (  <figcaption>Multi-frame fused points and the projection onto image.</figcaption>)
+
+[comment]: <> (</figure>)
+
+
+<figure class="half">
+<a href="/assets/images/image_with_points.png">
+<img src="/assets/images/image_with_points.png"  alt=""></a>
+<a href="/assets/images/image_with_points2.png">
+<img src="/assets/images/image_with_points2.png" alt=""></a>
+<figcaption>Multi-frame fused and single frame point cloud.</figcaption>
 </figure>
+
 
 ## Dataset Contents
 
-The fused LiDAR frames are then projected onto the image plane of left camera with calibration parameters. We generate both the ground-truth disparity and depth maps. 
+The fused LiDAR frames are then projected onto the image plane of left camera. We generate both the ground-truth disparity and depth maps. 
 The rectified stereo images are saved in `.jpg` format with save quality `100`. The depth and disparity maps are saved in lossless `.png` format, and the point clouds are in `.pcd` format.
 The depth and disparity values are multiplied by `256` before saving. **Note** that for a better registration accuracy, the point clouds may be cropped, and only the points near the camera's perspective are preserved.  
 
-For MVS and SfM applications, we provide **15** continuous sequences each of **8 seconds** long. The raw position, pose, and velocity data from the RTK and IMU are included. 
-Refer the description file in the dataset and the provided [development kit](https://github.com/ztsrxh/RSRD_dev_kit) for more details. The dataset is divided into train set with **2500** samples and test set with **300** samples.
+For SfM/MVS or localization applications, we provide **15** continuous sequences each of **8 seconds** long. The raw position, pose, and velocity data from the RTK and IMU are included. 
+Refer the description file and the [development kit](https://github.com/ztsrxh/RSRD_dev_kit) for more details. The dataset is divided into train set with **2500** samples and test set with **300** samples.
+
+Further, we provide extra 13K samples with sparse labels (only single frame LiDAR). This sparse sub-set can be used for weakly supervised or unsupervised learning.
+It's not divided it into train or test sets. **Note** that we do not recommend using this set for dense and accurate reconstruction.
 
 ##  Statistics and Samples
 ### Precision Evaluation
@@ -120,10 +139,6 @@ We also evaluate the number of pixels with GT labels of every sample. The histog
   <a href="/assets/images/RSRD-sample3d.png">
   <img  src="/assets/images/RSRD-sample3d.png" alt=""></a>
 </figure>
-
-
-
-
 
 
 
