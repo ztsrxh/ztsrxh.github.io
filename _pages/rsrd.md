@@ -14,7 +14,7 @@ Road surface classification just gives a condition category information, which i
 recover the road surface up to the macro-texture level, which provides the potential of revealing the joint function mechanism between friction and roughness.
 </p>
 
-The RSRD provides **high-precision**, **multi-modal**, and **multi-condition** stereo images and point cloud data. It contains **2800** data pairs with dense point cloud labels and 13K pairs with sparse labels. 
+The RSRD provides **high-precision**, **multi-modal**, and **multi-condition** stereo images and point cloud data. It contains **2800** data pairs with dense point cloud labels and **13K** pairs with sparse labels. 
 This dataset can act as a benchmark for **monocular depth estimation**, **multi-view stereo**, **binocular stereo matching**, **structure from motion**, or direct **point cloud processing**.
 
 ## Data Acquisition
@@ -35,19 +35,10 @@ Since the single-frame LiDAR point cloud is very sparse, accumulating nearby fra
 <p style="text-align: justify;">
 Motion compensation and initial alignment are first conducted to the nearby 4~6 LiDAR frames with the high-precision IMU and RTK data. Then ICP registration algorithm and the improved forms further fine-tune the alignment transformation.
 We fine-tune the algorithm parameters in a grid-search manner for every sample to ensure the alignment accuracy.
-
-[comment]: <> (However, the geometric features near road surface area are in lack, and the distance intervals of LiDAR scan lines on road surface are nonlinear. Also, the road scenarios are variable and the algorithms are not robust to all samples. That brings much challenge to the high-precision registration.)
 </p>
 
-[comment]: <> (<figure class="align-center" style="width: 70%; margin-top: 0;">)
+<!-- However, the geometric features near road surface area are in lack, and the distance intervals of LiDAR scan lines on road surface are nonlinear. Also, the road scenarios are variable and the algorithms are not robust to all samples. That brings much challenge to the high-precision registration. -->
 
-[comment]: <> (  <a href="/assets/images/image_with_points.png">)
-
-[comment]: <> (  <img src="/assets/images/image_with_points.png" alt=""></a>)
-
-[comment]: <> (  <figcaption>Multi-frame fused points and the projection onto image.</figcaption>)
-
-[comment]: <> (</figure>)
 
 
 <figure class="half">
@@ -68,7 +59,7 @@ The depth and disparity values are multiplied by `256` before saving. **Note** t
 For SfM/MVS or localization applications, we provide **15** continuous sequences each of **8 seconds** long. The raw position, pose, and velocity data from the RTK and IMU are included. 
 Refer the description file and the [development kit](https://github.com/ztsrxh/RSRD_dev_kit) for more details. The dataset is divided into train set with **2500** samples and test set with **300** samples.
 
-Further, we provide extra 13K samples with sparse labels (only single frame LiDAR). This sparse sub-set can be used for weakly supervised or unsupervised learning.
+Further, we provide extra **13K** samples with sparse labels (only single frame LiDAR). This sparse sub-set can be used for weakly supervised or unsupervised learning.
 It's not divided it into train or test sets. **Note** that we do not recommend using this set for dense and accurate reconstruction.
 
 ##  Statistics and Samples
