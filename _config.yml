@@ -47,5 +47,5 @@ atom_feed:
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: "" # G-GS87NKR0S5
+    tracking_id: "G-GS87NKR0S5"
     anonymize_ip: false # default
