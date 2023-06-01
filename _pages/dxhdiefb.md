@@ -6,15 +6,25 @@ categories: jekyll update
 <br>
 
 ## Download RSCD
-[Download](https://figshare.com/ndownloader/files/36625041) (13.92GB)
+
+RSCD dataset-1million.zip (13.92GB) [Download](https://figshare.com/ndownloader/files/36625041) 
 
 ## Download RSRD
 
-The RSRD is temporarily unavailable. We will publish it soon.
+RSRD-dense.zip (GB) [Download]()
+
+RSRD-sparse-part1.zip (GB) [Download]()
+
+RSRD-sparse-part2.zip (GB) [Download]()
+
+Dev kit for RSRD: [Github](https://github.com/ztsrxh/RSRD_dev_kit)
+
+The download link is temporarily unavailable. We will publish it soon.
 {: .notice--danger}
 
-[comment]: <> (## Download RSRD)
-[comment]: <> (The **RSRD** contains *train*, *test*, *description file*. The *development kit* for parsing the data is avaliable [here]&#40;&#41;.)
-[comment]: <> ([Download]&#40;&#41;)
+
+
+
+
 
 
