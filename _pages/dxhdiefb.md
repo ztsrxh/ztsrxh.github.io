@@ -19,7 +19,7 @@ RSRD-sparse-part2.zip (GB) [Download]()
 
 Dev kit for RSRD: [Github](https://github.com/ztsrxh/RSRD_dev_kit)
 
-The download link is temporarily unavailable. We will publish it soon.
+The RSRD has not been formally published. The download link is temporarily unavailable. 
 {: .notice--danger}
 
 
