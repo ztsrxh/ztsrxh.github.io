@@ -54,7 +54,7 @@ The rectified stereo images are saved in `.jpg` format with save quality `100`. 
 The depth and disparity values are multiplied by `256` before saving. **Note** that for a better registration accuracy, the point clouds may be cropped, and only the points near the camera's perspective are preserved.  
 
 For SfM/MVS or localization applications, we provide **15** continuous sequences each of **8 seconds** long. The raw position, pose, and velocity data from the RTK and IMU are included. 
-Refer the description file and the [development kit](https://github.com/ztsrxh/RSRD_dev_kit) for more details. The dataset is divided into train set with **2500** samples and test set with **300** samples.
+Refer the [development kit](/download) for more details. The dataset is divided into train set with **2500** samples and test set with **300** samples.
 
 Further, we provide extra **13K** samples with sparse labels (only single frame LiDAR, as shown above). This sparse sub-set can be used for weakly supervised or unsupervised learning.
 It's not divided it into train or test sets. **Note** that we do not recommend using this set for dense and accurate reconstruction.
