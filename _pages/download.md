@@ -5,7 +5,7 @@ categories: jekyll update
 ---
 <br>
 
-## Download RSXD
+## Download RSXD & dev-kit
 Please submit the following form, after which the download links are available.
 
 <form id="contactform" action="https://formsubmit.io/send/3e9c2618-1c27-4336-9d36-fc40c492b434" method="POST">
