@@ -25,6 +25,9 @@ Please submit the following form, after which the download links are available.
 </form>
 
 
+You needn't click 'submit' for many times, please wait for a moment.
+{: .notice--danger}
+
 <!-- <form action="https://formspree.io/f/xayzzlny" method="post">
   <fieldset id="fs-frm-inputs">
     <label for="full-name">Full Name</label>
