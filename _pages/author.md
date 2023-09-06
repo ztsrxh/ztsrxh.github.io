@@ -19,6 +19,7 @@ gallery:
 <br>
 
 ## Education
+2023.08~present &ensp;&ensp; Visiting Student &ensp;&ensp; University of California Berkeley
 2020~present &ensp;PhD &ensp;&ensp; Tsinghua University, Automotive Engineering
 <br>
 2016~2020 &ensp;&ensp;&ensp; B.E. &ensp;&ensp; Xiamen University, Electronic Engineering
