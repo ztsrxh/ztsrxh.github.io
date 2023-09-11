@@ -1,5 +1,5 @@
 ---
-permalink: /dxhdiefb/
+permalink: /rsrd_review/
 title:  "Download"
 categories: jekyll update
 ---
