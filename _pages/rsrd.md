@@ -77,7 +77,7 @@ We also evaluate the number of pixels with GT labels of every sample. The histog
 
 ### Demo video
 <figure class="align-center" style="margin-top: 0;">
-  <video autoplay loop muted playsinline preload="auto" width="610">
+  <video controls loop muted playsinline preload="none" width="610">
     <source src="/assets/videos/pre540.mp4" type="video/mp4">
   </video>
 </figure>
