@@ -75,6 +75,13 @@ We also evaluate the number of pixels with GT labels of every sample. The histog
   <figcaption>Histogram of counts of GT labels.</figcaption>
 </figure>
 
+### Demo video
+<figure class="align-center" style="margin-top: 0;">
+  <video autoplay loop muted playsinline preload="auto" width="610">
+    <source src="/assets/videos/pre540.mp4" type="video/mp4">
+  </video>
+</figure>
+
 ### Sample 1
 <figure class="align-center" style="width: 100%; margin-top: 0;">
   <a href="/assets/images/RSRD-sample1.png">
