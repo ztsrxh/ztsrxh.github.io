@@ -78,7 +78,7 @@ We also evaluate the number of pixels with GT labels of every sample. The histog
 ### Demo video
 <figure class="align-center" style="width: 100%; margin-top: 0;">
   <video controls loop muted playsinline preload="none" width="800" poster="/assets/images/poster.jpg">
-    <source src="/assets/videos/pre540.mp4" type="video/mp4">
+    <source src="/assets/videos/dataset_normal_map.mp4" type="video/mp4">
   </video>
 </figure>
 
