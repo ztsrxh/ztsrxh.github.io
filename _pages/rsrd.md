@@ -14,7 +14,7 @@ Road surface classification just gives a condition category information, which i
 recover the road surface up to the macro-texture level, which provides the potential of revealing the joint function mechanism between friction and roughness.
 </p>
 
-The RSRD provides **high-precision**, **multi-modal**, and **multi-condition** stereo images and point cloud data. It contains **2800** data pairs with dense point cloud labels and **13K** pairs with sparse labels. 
+The RSRD provides **high-resolution**, **high-accuracy**, and **multi-condition** stereo images and point clouds. It contains **2800** data pairs with dense point cloud labels and **13K** pairs with sparse labels. 
 This dataset can act as a benchmark for **monocular depth estimation**, **multi-view stereo**, **binocular stereo matching**, **structure from motion**, or direct **point cloud processing**.
 
 ## Data Acquisition
