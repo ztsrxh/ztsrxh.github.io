@@ -1,5 +1,5 @@
 ---
-permalink: /rsrd_review/
+permalink: /review/
 title:  "Download"
 categories: jekyll update
 ---
