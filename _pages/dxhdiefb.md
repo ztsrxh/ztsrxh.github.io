@@ -5,6 +5,9 @@ categories: jekyll update
 ---
 <br>
 
+- Downloading the datasets means that you comply with our CC BY-NC license. Not for any commercial use.
+{: .notice--danger}
+
 ## Download RSCD
 
 RSCD dataset-1million.zip (13.92GB) [Download](https://figshare.com/ndownloader/files/36625041) 
@@ -21,7 +24,6 @@ Dev kit and detailed description for RSRD: [Github](https://github.com/ztsrxh/RS
 
 - The RSRD has not been released formally, and the download links are not available now.
 - The download automatically starts after a moment of clicking *Download*. If something goes wrong, try to change your IP or DNS.
-- Any questions, please contact us: zhaot20@mails.tsinghua.edu.cn
 {: .notice--danger}
 
 
