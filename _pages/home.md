@@ -55,8 +55,8 @@ All the data is processed by initial annotation and further quality inspection. 
 
 
 ## Usage and Citations
-The RSXD (including RSCD and RSRD) is licensed under the permissive CC BY-NC.
+The RSXD (including RSCD and RSRD) is licensed under the permissive CC BY-NC. The datasets are released based on the resources of Tsinghua University, who possesses the complete copy right.
 
-The RSXD is open to academic research, not for any commercial use. If your works use the dataset, please cite:<br>
+The RSXD is only open to academic research, not for any commercial use. If your works use the dataset, please cite:<br>
 - T. Zhao, et.al. <a href="https://ieeexplore.ieee.org/abstract/document/10101715">"A Comprehensive Implementation of Road Surface Classification for Vehicle Driving Assistance: Dataset, Models, and Deployment". </a> *IEEE Transactions on Intelligent Transportation Systems*, 2023.<br>
 - T. Zhao, et al. <a href="https://doi.org/10.1016/j.dib.2022.108483"> "A road surface image dataset with detailed annotations for driving assistance applications". </a> *Data in Brief*.<br>
