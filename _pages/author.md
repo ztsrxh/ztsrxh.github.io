@@ -32,5 +32,5 @@ My research interests include vehicle&tire dynamics, computer vision and their e
 
 ## Acknowledgements 
 <p style="text-align: justify;">
-The hardware platform and experiments are based on the resources of our lab led by Prof. Yintao Wei. The dataset would not be possible without the support of several individuals within our lab. We would like to thank, without any particular order, the following people for their contributions to the dataset: Jingcheng Lyu, Junxiang He, Delei Min, and engineers from Cosmartor Suspension Tech Co., Ltd.
+The hardware platform and experiments are based on the resources of our lab led by Prof. Yintao Wei. The dataset is finished in Tsinghua University, who possesses the complete property rights of the datasets. The algorithm and analysis works are partially done during my visit to the MSC lab in UC Berkeley.
 </p>
