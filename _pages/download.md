@@ -3,7 +3,6 @@ permalink: /download/
 title:  "Download"
 categories: jekyll update
 ---
-<br>
 
 ## Download RSXD & dev-kit
 Please submit the following form, after which the download links are available.
@@ -18,7 +17,7 @@ Please submit the following form, after which the download links are available.
     <label for="university">Affiliation</label>
     <input type="text" name="university" id="university" placeholder="university/institute" required="">
     <label for="message">Interests</label>
-    <textarea rows="3" name="message" id="message" placeholder="which dataset you need" required=""></textarea>
+    <textarea rows="2" name="message" id="message" placeholder="which dataset you need / your research interests" required=""></textarea>
   </fieldset>
   <input name="_formsubmit_id" type="text" style="display:none">
   <input type="submit" value="Submit">
