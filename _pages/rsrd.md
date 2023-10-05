@@ -10,8 +10,7 @@ header:
 
 # Road Surface Reconstruction Dataset
 <p style="text-align: justify;">
-Road surface classification just gives a condition category information, which is coarse and not enough for the active safety control systems. Road reconstruction further
-recover the road surface up to the macro-texture level, which provides the potential of revealing the joint function mechanism between friction and roughness.
+Fine-grained road reconstruction recovers the road surface profile up to the macro-texture level. It provides the possibility of predicting the vehicle response in advance, thus benefiting decision making and control of autonomous vehicles to improve the driving safety and comfort.
 </p>
 
 The RSRD provides **high-resolution**, **high-accuracy**, and **multi-condition** stereo images and point clouds. It contains **2800** data pairs with dense point cloud labels and **13K** pairs with sparse labels. 
