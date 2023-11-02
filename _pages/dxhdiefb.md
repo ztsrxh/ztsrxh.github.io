@@ -22,7 +22,7 @@ RSRD-sparse-part2.zip (14.3GB) [Download]
 
 Dev kit and detailed description for RSRD: [Github](https://github.com/ztsrxh/RSRD_dev_kit)
 
-- The RSRD has not been released formally (our dataset paper is under review). The download links will be available soon. Thanks for your understanding. Any problems, please contact us: zhaot20@berkeley.edu.
+- The RSRD has not been released formally (our dataset paper is under review). The download links will be available soon.  To have an early access to the RSRD, please contact us: zhaot20@berkeley.edu.
 - The download automatically starts after a moment of clicking *Download*. If something goes wrong, try to change your IP or DNS.
 {: .notice--danger}
 
