@@ -3,6 +3,8 @@ main:
     url: /rscd/
   - title: "RSRD"
     url: /rsrd/
+  - title: "RSRD-segmentation"
+    url: /rsrd_segmentation/
   - title: "Hardware Platform"
     url: /sensors/
   - title: "Download"
