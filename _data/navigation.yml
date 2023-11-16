@@ -3,9 +3,9 @@ main:
     url: /rscd/
   - title: "RSRD"
     url: /rsrd/
-  - title: "RSRD-segmentation"
+  - title: "Unevenness segmentation"
     url: /rsrd_segmentation/
-  - title: "Hardware Platform"
+  - title: "Hardware"
     url: /sensors/
   - title: "Download"
     url: /download/
