@@ -20,17 +20,17 @@ header:
 <p style="text-align: justify;">
 The current perception research for autonomous driving (AD) mainly concentrates on the traffic environment understanding, such as obstacle
 detection & tracking, lane & drivable area detection,  traffic light & sign recognition, and motion prediction. These perception pipelines contributes to realize motion control.
-In high-speed and harsh driving environments, the dynamics characteristics of the tire-road interactions is still the last security moat. 
+In high-speed and harsh driving environments, the dynamics characteristics of tire-road interactions is still the last security moat. 
 Road is the only component in the physical world that vehicles have contact with. However, we know little about the road itself. 
-Their feet and legs float in the air.
+Vehicle's feet and legs float in the air.
 </p>
 
-To fill this gap, we build and publish this **RSXD** dataset, which consists of **R**oad **S**urface **C**lassification **D**ataset 
+To fill this gap, we build and release **RSXD**, consisting of **R**oad **S**urface **C**lassification **D**ataset 
 and **R**oad **S**urface **R**econstruction **D**ataset. 
 
 <p style="text-align: justify;">
-With the two datasets, we can obtain a comprehensive understanding of the current road conditions, especially the most important friction and unevenness information. 
-The road preview information contributes to both the advanced driving assistance systems and the L4+ AD vehicles. The accuracy and performance of the trajectory planning and tracking/control systems will be greatly enhanced. 
+With the two datasets, we can obtain a comprehensive understanding of road conditions, especially the most important friction and unevenness. 
+Road condition preview contributes to both the advanced driving assistance systems and L4+ AD vehicles. The accuracy and performance of trajectory planning and tracking/control systems will be greatly enhanced. 
 Meanwhile, the road condition information can also be utilized in applications such as road health monitoring and accident prevention. 
 </p>
 
@@ -41,13 +41,12 @@ The resolution and definition of road surface in the images are poor; the accura
 Most significantly, they offer no detailed ground-truth information about road surface conditions.
 </p>
 
-Our **RSXD** overcome this problem. This is a dataset specifically built for road surface perception.The **RSCD** is an image dataset for classifying road conditions, providing
-detailed road friction, material, and unevenness level annotations. The **RSRD** is a multi-modal dataset for reconstructing road elevation, providing recitfied stereo images, stereo disparity, depth, point cloud, and location/pose labels. 
+Our **RSXD** is the first dataset specifically for road surface perception.The **RSCD** is an image dataset for classifying road conditions, providing
+detailed road friction, material, and unevenness level annotations. The **RSRD** is a multi-modal dataset for road reconstruction, providing recitfied stereo images, stereo disparity, depth, point cloud, and location/pose labels. 
 
 ## How RSXD?
-For the target of practical engineering applications, we pay much attention to expanding the diversity of the dataset. We conduct experiments in various weather/seasons, urban/rural areas, 
-and roads with different material, service age, and traffic flow. The **RSCD** contains **1million** image samples of **360*240px** size, covering about **700km** roads. The **RSRD**
-contains **2800** pairs of stereo image and point cloud samples.
+For practical engineering applications, we make great efforts in expanding the dataset diversity and promoting label accuracy. We conduct experiments in various weather/seasons, urban/rural areas, 
+and roads with different material, service age, and traffic flow. The **RSCD** contains **1million** image samples of **360*240px** size, covering about **700km** roads. The **RSRD** contains **2800** pairs with dense labels, and **13K** pairs with sparse labels.
 
 <p style="text-align: justify;">
 All the data is processed by initial annotation and further quality inspection. The accuracy requirement and decision boundary are strictly defined, thus minimizing the subjective bias and label noise.
@@ -66,6 +65,7 @@ RSCD:
 ---
 RSRD:
   - T. Zhao, et al. <a href="https://arxiv.org/abs/2310.02262"> "RSRD: A Road Surface Reconstruction Dataset and Benchmark for Safe and Comfortable Autonomous Driving". </a> *arXiv:2310.02262*, 2023.<br>
+
 ---
 RSRD-segmentation:
- - T. Zhao, et.al. <a href="https://ieeexplore.ieee.org/document/10329453"> "A Hierarchical Scheme of Road Unevenness Perception with LiDAR for Autonomous Driving Comfort". </a> *IEEE Transactions on Intelligent Vehicles*, 2022. <br>
+  - T. Zhao, et.al. <a href="https://ieeexplore.ieee.org/document/10329453"> "A Hierarchical Scheme of Road Unevenness Perception with LiDAR for Autonomous Driving Comfort". </a> *IEEE Transactions on Intelligent Vehicles*, 2022. <br>
