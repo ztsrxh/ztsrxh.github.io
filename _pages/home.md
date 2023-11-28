@@ -66,3 +66,6 @@ RSCD:
 ---
 RSRD:
   - T. Zhao, et al. <a href="https://arxiv.org/abs/2310.02262"> "RSRD: A Road Surface Reconstruction Dataset and Benchmark for Safe and Comfortable Autonomous Driving". </a> *arXiv:2310.02262*, 2023.<br>
+---
+RSRD-segmentation:
+ - T. Zhao, et.al. <a href="https://ieeexplore.ieee.org/document/10329453"> "A Hierarchical Scheme of Road Unevenness Perception with LiDAR for Autonomous Driving Comfort". </a> *IEEE Transactions on Intelligent Vehicles*, 2022. <br>
