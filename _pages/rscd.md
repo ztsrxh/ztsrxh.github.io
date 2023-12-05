@@ -59,7 +59,7 @@ Note： Since the experiments under rainy days are hard to conduct & label and a
 </figure>
 
 ## Baseline
-Please refer to our [paper](/#Usage and Citations) for more details.
+Please refer to our [paper](https://ieeexplore.ieee.org/abstract/document/10101715) for more details.
 
 
 
