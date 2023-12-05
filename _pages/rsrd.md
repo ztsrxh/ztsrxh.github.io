@@ -75,7 +75,7 @@ We also evaluate the number of pixels with GT labels of every sample. The histog
 
 ## Baseline
 
-Please refer to our paper[https://arxiv.org/abs/2310.02262] for more details.
+Please refer to our [paper](https://arxiv.org/abs/2310.02262) for more details.
 
 ## Demo video
 <figure class="align-center" style="width: 100%; margin-top: 0;">
