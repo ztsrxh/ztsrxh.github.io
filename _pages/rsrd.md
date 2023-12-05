@@ -22,7 +22,6 @@ The experiments are conducted from March to April, 2023 in Qingdao, China. We se
 
 To reach a higher label accuracy and prevent image motion blur, the velocity is limited under `40 km/h`. Since we consider only the road surface area, the horizontal viewing angle of the mechanical rotating LiDAR is set to `100 degrees`. The acquisition frequency for the stereo cameras and LiDAR is set to `5Hz`.
 
-
 ## Multi-frame Point Cloud Fusion
 
 <p style="text-align: justify;">
@@ -74,7 +73,11 @@ We also evaluate the number of pixels with GT labels of every sample. The histog
   <figcaption>Histogram of counts of GT labels.</figcaption>
 </figure>
 
-### Demo video
+## Baseline
+
+Please refer to our paper[https://arxiv.org/abs/2310.02262] for more details.
+
+## Demo video
 <figure class="align-center" style="width: 100%; margin-top: 0;">
   <video controls loop muted playsinline preload="none" width="800" poster="/assets/images/poster.jpg">
     <source src="/assets/videos/dataset_normal_map.mp4" type="video/mp4">
