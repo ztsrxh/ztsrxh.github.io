@@ -23,6 +23,6 @@ As only road areas where tires pass will cause vehicle response, we further crop
 </figure>
 
 ## Baseline
-Please refer to our paper[https://ieeexplore.ieee.org/document/10329453] for more details.
+Please refer to our [paper](https://ieeexplore.ieee.org/document/10329453) for more details.
 
 
