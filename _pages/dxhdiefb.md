@@ -8,10 +8,10 @@ categories: jekyll update
 - Downloading the datasets means that you comply with our CC BY-NC license. Not for any commercial use!
 {: .notice--danger}
 
-## Download RSCD
+## Download [RSCD](/rscd/)
 RSCD dataset-1million.zip (13.92GB) [Download](https://figshare.com/ndownloader/files/36625041) 
 
-## Download RSRD
+## Download [RSRD](/rsrd/)
 Dev kit and detailed description for RSRD: [Github](https://github.com/ztsrxh/RSRD_dev_kit)
 
 ---
@@ -27,7 +27,7 @@ As in feedbacks, the full-resolution image(1920\*1080) above is quite challengin
 RSRD-dense-half.zip [Train set](), [Test set]()
 
 
-## Download road unevenness segmentation subset
+## Download road unevenness [segmentation subset](/rsrd_segmentation/)
 
 [Download](https://figshare.com/ndownloader/files/41361210) the complete point cloud. 
 
