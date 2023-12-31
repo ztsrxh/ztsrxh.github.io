@@ -10,19 +10,25 @@ layout: splash
 
 # Road Surface Classification Dataset
 
-The knowledge of the road surface states is essential for improving the safety and the ride comfort of autonomous vehicles. Previewing the road conditions with vision sensor is verified to be an effective solution. However, there is still a lack of a large-scale road surface image dataset. 
-Therefore, we publish this **R**oad **S**urface **C**lassification **D**ataset (RSCD) containing 1 million image samples with detailed road `material`, `friction` and `unevenness` level annotations.
+The prior knowledge of road surface states is essential for improving the safety and ride comfort of autonomous vehicles. Previewing road conditions with vision sensor is verified to be an effective solution. However, there is still a lack of a large-scale road surface image dataset. 
+We release this **R**oad **S**urface **C**lassification **D**ataset (RSCD), which is the first dataset in this field containing 1 million image samples with detailed road `material`, `friction` and `unevenness` level annotations.
 
 
 ## Data Acquisition
 <p style="text-align: justify;">
-The original pictures are captured with the monocular camera. To ensure a high resolution of the road surface area, the camera is mounted on the bonnet and have a certain angle. The pictures are collected and stored with the acquisition platform.
+The original pictures are captured with a 2M monocular camera. To ensure high resolution of the road surface area, the camera is mounted on bonnet with a certain pitch angle. The pictures are collected and stored with the acquisition platform.
 Aiming at developing practical driving assistance applications, we conducted real-vehicle image acquisition under as many working conditions as possible. The generalization capability of the classification algorithm to be developed is enlarged at the dataset level. The experiments lasted from January to July, 2022 in Beijing and covered about 700 kilometers of roads.
 </p>
 
 <p style="text-align: justify;">
-Considering the fact that only the road area that the tires pass would affect the vehicle response, we crop the road surface area of the original pictures into patches of size 360*240px. The patches are labeled manually according to the class definition below.
+Considering the fact that only the road area that tires pass would affect vehicle response, we crop the road surface area of the original pictures into patches of size 360*240px. The patches are labeled manually according to the class definition below.
 </p>
+
+<figure class="align-right" style="width: 40%; margin-top: 0;">
+  <a href="/assets/images/crop.jpg">
+  <img src="/assets/images/crop.jpg" alt=""></a>
+  <figcaption>Patches are cropped from the complete scene.</figcaption>
+</figure>
 
 ## Class Definition
 <figure class="align-right" style="width: 40%; margin-top: 0;">
