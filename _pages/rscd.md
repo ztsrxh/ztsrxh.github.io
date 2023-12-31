@@ -24,7 +24,7 @@ Aiming at developing practical driving assistance applications, we conducted rea
 Considering the fact that only the road area that tires pass would affect vehicle response, we crop the road surface area of the original pictures into patches of size 360*240px. The patches are labeled manually according to the class definition below.
 </p>
 
-<figure class="align-right" style="width: 40%; margin-top: 0;">
+<figure class="align-center" style="width: 40%; margin-top: 0;">
   <a href="/assets/images/crop.jpg">
   <img src="/assets/images/crop.jpg" alt=""></a>
   <figcaption>Patches are cropped from the complete scene.</figcaption>
