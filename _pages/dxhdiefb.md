@@ -22,9 +22,9 @@ RSRD-sparse-part1.zip (13.3GB) [Download](https://figshare.com/ndownloader/files
 RSRD-sparse-part2.zip (14.3GB) [Download](https://figshare.com/ndownloader/files/42281085)
 
 ---
-As in feedbacks, the full-resolution image(1920\*1080) above is quite challenging for deep learning models. We downsample the RSRD-dense to half size(960\*540).
+As in feedbacks, the full-resolution image(1920\*1080) above is quite challenging for deep learning models. We provide down-sampled RSRD of half size(960\*540).
 
-RSRD-dense-half.zip [Train set](), [Test set]()
+RSRD-dense-half.zip [Train set](), [Test set]() (coming soon)
 
 
 ## Download road unevenness [segmentation subset](/rsrd_segmentation/)
