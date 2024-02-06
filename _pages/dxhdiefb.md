@@ -12,7 +12,7 @@ categories: jekyll update
 RSCD dataset-1million.zip (13.92GB) [Download](https://figshare.com/ndownloader/files/36625041) 
 
 ## Download [RSRD](/rsrd/)
-Dev kit and detailed description for RSRD: [Github](https://github.com/ztsrxh/RSRD_dev_kit)
+Dev kit and detailed description for RSRD: [Github](https://github.com/ztsrxh/RSRD_dev_toolkit)
 
 ---
 RSRD-dense.zip (12.66GB) [Download](https://figshare.com/ndownloader/files/42280992)
