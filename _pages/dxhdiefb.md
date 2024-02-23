@@ -17,11 +17,11 @@ Dev kit and detailed description for RSRD: [Github](https://github.com/ztsrxh/RS
 Files below include both the full-resolution (1920\*1080) and half-resolution (960\*540) images.
 
 ---
-RSRD-dense.zip (15.1GB) [Download](https://figshare.com/ndownloader/files/44602642)
+RSRD-dense.zip (15.1GB) [Download](https://figshare.com/ndownloader/files/44667559)
 
-RSRD-sparse-part1.zip (18.2GB) [Download](https://figshare.com/ndownloader/files/44602960)
+RSRD-sparse-part1.zip (18.2GB) [Download](https://figshare.com/ndownloader/files/44667607)
 
-RSRD-sparse-part2.zip (14.3GB) [Download](https://figshare.com/ndownloader/files/44603008)
+RSRD-sparse-part2.zip (14.3GB) [Download](https://figshare.com/ndownloader/files/44667700)
 
 <!--
 The full-resolution images (1920\*1080) above are challenging for deep learning models. We further provide down-sampled RSRD of half size (960\*540).
