@@ -25,7 +25,7 @@ To reach a higher label accuracy and prevent image motion blur, the velocity is 
 ## Multi-frame Point Cloud Fusion
 
 <p style="text-align: justify;">
-Since the single-frame LiDAR point cloud is very sparse, accumulating nearby frames is required for a dense reconstruction. Comparing with the traffic environment, the amplitude of road surface undulation is much smaller (generally 1~2 cm for small rocks or cracks), which indicates a higher requirement for the fusion accuracy. 
+As the single-frame LiDAR point cloud is very sparse, accumulating nearby frames is required for a dense reconstruction. Comparing with the traffic environment, the amplitude of road surface undulation is much smaller (generally 1~2 cm for small rocks or cracks), which indicates a higher requirement for the fusion accuracy. 
 </p>
 
 <p style="text-align: justify;">
@@ -52,10 +52,9 @@ The rectified stereo images are saved in `.jpg` format with save quality `100`. 
 The depth and disparity values are multiplied by `256` before saving. **Note** that for a better registration accuracy, the point clouds may be cropped, and only the points near the camera's perspective are preserved.  
 
 For SfM/MVS or localization applications, we provide **15** continuous sequences each of **8 seconds** long. The raw position, pose, and velocity data from the RTK and IMU are included. 
-Refer the [development kit](/download) for more details. The dataset is divided into train set with **2500** samples and test set with **300** samples.
+Refer the [development kit](https://github.com/ztsrxh/RSRD_dev_toolkit) for more details. The dataset is divided into train set with **2500** samples and test set with **300** samples.
 
-Further, we provide extra **13K** samples with sparse labels (only single frame LiDAR, as shown above). This sparse sub-set can be used for weakly supervised or unsupervised learning.
-It's not divided it into train or test sets. **Note** that we do not recommend using this set for dense and accurate reconstruction.
+Further, we provide extra **13K** samples with sparse labels (only single frame LiDAR, as shown above). It contains **176** continuous sequences. This sparse sub-set can be used for weakly supervised or unsupervised learning. It's not divided it into train or test sets. 
 
 ##  Statistics and Samples
 ### Precision Evaluation
@@ -75,7 +74,11 @@ We also evaluate the number of pixels with GT labels of every sample. The histog
 
 ## Baseline
 
-Please refer to our [paper](https://arxiv.org/abs/2310.02262) for more details.
+Stereo matching: [[Paper]](https://arxiv.org/abs/2402.08931) [[Code]](https://github.com/ztsrxh/DVANet)
+
+BEV: [[Coming soon!]]()
+
+MVS: [[Coming soon!]]()
 
 ## Demo video
 <figure class="align-center" style="width: 100%; margin-top: 0;">
