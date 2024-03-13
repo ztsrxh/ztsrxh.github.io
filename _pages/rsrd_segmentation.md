@@ -25,4 +25,16 @@ As only road areas where tires pass will cause vehicle response, we further crop
 ## Baseline
 Please refer to our [paper](https://ieeexplore.ieee.org/document/10329453) for more details.
 
+## Codes for reading data
+```bash
+import open3d as o3d
+import numpy as np
 
+pcd = o3d.t.io.read_point_cloud('XXX.pcd')
+xyz = pcd.point.positions.numpy()
+labels = pcd.point.label.numpy().reshape(-1).astype(np.int8)
+# RGB information
+b = pcd.point.b.numpy()/255.0
+r = pcd.point.r.numpy()/255.0
+g = pcd.point.g.numpy()/255.0
+```
