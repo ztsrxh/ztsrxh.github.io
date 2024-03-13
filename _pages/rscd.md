@@ -67,6 +67,10 @@ Note： Since the experiments under rainy days are hard to conduct & label and a
 ## Baseline
 Please refer to our [paper](https://ieeexplore.ieee.org/abstract/document/10101715) for more details.
 
+## Demo Video
+
+[<img src="https://img.youtube.com/vi/kp6mNrUpJEo/hqdefault.jpg" width="600" height="450"
+/>](https://www.youtube.com/embed/kp6mNrUpJEo)
 
 
 
