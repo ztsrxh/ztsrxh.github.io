@@ -1,7 +1,7 @@
 ---
-permalink: /author/
+permalink: /tongzhao/
 categories: jekyll update
-title:  "About Us"
+title:  "Tong Zhao"
 layout: splash
 gallery:
 
