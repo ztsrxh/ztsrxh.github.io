@@ -1,8 +1,13 @@
 ---
-layout: archive
+layout: splash
 permalink: /TongZhao
 title: "Tong Zhao / 赵通"
 author_profile: true
+sidebar:
+  - title: "Tong Zhao"
+    image: "/assets/images/profiles/TongZhao.jpg"
+    image_alt: "image"
+    text: "PhD. at Tsinghua University"
 ---
 
 I am Tong Zhao, pursuing Ph.D. degree at the School of Vehicle and Mobility, Tsinghua University, under the supervision of Prof. Yintao Wei. I am a visiting student at the [MSC Lab](https://msc.berkeley.edu/) in UC Berkeley, under the supervision of [Prof. Masayoshi Tomizuka]((https://me.berkeley.edu/people/masayoshi-tomizuka/)). I received my Bachelor degree from Xiamen University (XMU) in 2020. 
