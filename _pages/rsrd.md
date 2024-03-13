@@ -80,7 +80,7 @@ BEV: [[Coming soon!]]()
 
 MVS: [[Coming soon!]]()
 
-## Demo video
+## Demo video by stereo matching
 <figure class="align-center" style="width: 100%; margin-top: 0;">
   <video controls loop muted playsinline preload="none" width="800" poster="/assets/images/poster.jpg">
     <source src="/assets/videos/dataset_normal_map.mp4" type="video/mp4">
@@ -141,8 +141,16 @@ MVS: [[Coming soon!]]()
 </figure>
 
 
+## Citation
 
-
+```bibtex
+@article{zhao2023rsrd,
+  title={RSRD: A road surface reconstruction dataset and benchmark for safe and comfortable autonomous driving},
+  author={Zhao, Tong and Xu, Chenfeng and Ding, Mingyu and Tomizuka, Masayoshi and Zhan, Wei and Wei, Yintao},
+  journal={arXiv preprint arXiv:2310.02262},
+  year={2023}
+}
+```
 
 
 

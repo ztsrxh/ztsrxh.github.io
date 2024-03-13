@@ -72,6 +72,31 @@ Please refer to our [paper](https://ieeexplore.ieee.org/abstract/document/101017
 [<img src="https://img.youtube.com/vi/kp6mNrUpJEo/hqdefault.jpg" width="600" height="450"
 />](https://www.youtube.com/embed/kp6mNrUpJEo)
 
+## Citation
+```bibtex
+@ARTICLE{10101715,
+  author={Zhao, Tong and He, Junxiang and Lv, Jingcheng and Min, Delei and Wei, Yintao},
+  journal={IEEE Transactions on Intelligent Transportation Systems}, 
+  title={A Comprehensive Implementation of Road Surface Classification for Vehicle Driving Assistance: Dataset, Models, and Deployment}, 
+  year={2023},
+  volume={24},
+  number={8},
+  pages={8361-8370},
+  doi={10.1109/TITS.2023.3264588}}
+```
+```bibtex
+@article{ZHAO2022108483,
+title = {A road surface image dataset with detailed annotations for driving assistance applications},
+journal = {Data in Brief},
+volume = {43},
+pages = {108483},
+year = {2022},
+issn = {2352-3409},
+doi = {https://doi.org/10.1016/j.dib.2022.108483},
+url = {https://www.sciencedirect.com/science/article/pii/S2352340922006771},
+author = {Tong Zhao and Yintao Wei}}
+```
+
 
 
 

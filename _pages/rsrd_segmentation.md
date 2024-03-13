@@ -38,3 +38,17 @@ b = pcd.point.b.numpy()/255.0
 r = pcd.point.r.numpy()/255.0
 g = pcd.point.g.numpy()/255.0
 ```
+
+## Citation
+
+```bibtex
+@ARTICLE{10329453,
+  author={Zhao, Tong and Guo, Peilin and He, Junxiang and Wei, Yintao},
+  journal={IEEE Transactions on Intelligent Vehicles}, 
+  title={A Hierarchical Scheme of Road Unevenness Perception With LiDAR for Autonomous Driving Comfort}, 
+  year={2024},
+  volume={9},
+  number={1},
+  pages={2439-2448},
+  doi={10.1109/TIV.2023.3337236}}
+```
