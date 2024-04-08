@@ -10,14 +10,13 @@ layout: splash
 
 # Road Surface Classification Dataset
 
-The prior knowledge of road surface states is essential for improving the safety and ride comfort of autonomous vehicles. Previewing road conditions with vision sensor is verified to be an effective solution. However, there is still a lack of a large-scale road surface image dataset. 
-We release this **R**oad **S**urface **C**lassification **D**ataset (RSCD), which is the first dataset in this field containing 1 million image samples with detailed road `material`, `friction` and `unevenness` level annotations.
+The prior knowledge of road surface states is essential for improving the safety and ride comfort of autonomous vehicles. Previewing road conditions with vision sensor is verified to be an effective solution. We release this **R**oad **S**urface **C**lassification **D**ataset (RSCD), which is the first dataset in this field containing 1 million image samples with detailed road `material`, `friction` and `unevenness` level annotations.
 
 
 ## Data Acquisition
 <p style="text-align: justify;">
-The original pictures are captured with a 2M monocular camera. To ensure high resolution of the road surface area, the camera is mounted on bonnet with a certain pitch angle. The pictures are collected and stored with the acquisition platform.
-Aiming at developing practical driving assistance applications, we conducted real-vehicle image acquisition under as many working conditions as possible. The generalization capability of the classification algorithm to be developed is enlarged at the dataset level. The experiments lasted from January to July, 2022 in Beijing and covered about 700 kilometers of roads.
+Original pictures are captured with a 2M monocular camera. To ensure high resolution of road surface area, the camera is mounted on bonnet with a certain pitch angle.
+We acquire real-world data under as diverse working conditions as possible. Experiments lasted from January to July, 2022 in Beijing and covered about 700 kilometers of roads. The generalization capability of models to be developed is enlarged at the dataset level.
 </p>
 
 <p style="text-align: justify;">
@@ -64,13 +63,15 @@ Note： Since the experiments under rainy days are hard to conduct & label and a
   <figcaption>Number of images for each class.</figcaption>
 </figure>
 
-## Baseline
-Please refer to our [paper](https://ieeexplore.ieee.org/abstract/document/10101715) for more details.
+## Baseline for downstream applications
+Please refer to our [classification model](https://ieeexplore.ieee.org/abstract/document/10101715) and [friction estimation](https://doi.org/10.1016/j.ymssp.2023.111019) papers for more details.
 
-## Demo Video
+## Demo Video for road classification
+[<img src="https://img.youtube.com/vi/kp6mNrUpJEo/hqdefault.jpg" width="600" height="450"/>](https://www.youtube.com/embed/kp6mNrUpJEo)
 
-[<img src="https://img.youtube.com/vi/kp6mNrUpJEo/hqdefault.jpg" width="600" height="450"
-/>](https://www.youtube.com/embed/kp6mNrUpJEo)
+## Demo Video for road friction estimation
+[<img src="https://img.youtube.com/vi/XYsDKpCLgVs/hqdefault.jpg" width="600" height="450"/>](https://www.youtube.com/embed/XYsDKpCLgVs)
+
 
 ## Citation
 ```bibtex
@@ -85,16 +86,14 @@ Please refer to our [paper](https://ieeexplore.ieee.org/abstract/document/101017
   doi={10.1109/TITS.2023.3264588}}
 ```
 ```bibtex
-@article{ZHAO2022108483,
-title = {A road surface image dataset with detailed annotations for driving assistance applications},
-journal = {Data in Brief},
-volume = {43},
-pages = {108483},
-year = {2022},
-issn = {2352-3409},
-doi = {https://doi.org/10.1016/j.dib.2022.108483},
-url = {https://www.sciencedirect.com/science/article/pii/S2352340922006771},
-author = {Tong Zhao and Yintao Wei}}
+@article{ZHAO2024111019,
+title = {Road friction estimation based on vision for safe autonomous driving},
+journal = {Mechanical Systems and Signal Processing},
+volume = {208},
+pages = {111019},
+year = {2024},
+doi = {https://doi.org/10.1016/j.ymssp.2023.111019},
+author = {Tong Zhao and Peilin Guo and Yintao Wei}}
 ```
 
 
