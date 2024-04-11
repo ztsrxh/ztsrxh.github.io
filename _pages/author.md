@@ -42,6 +42,7 @@ Publications
 **Preprint**
 1. **T. Zhao**, C.F. Xu, M.Y. Ding, M Tomizuka, and Y.T. Wei, "RSRD: A road surface reconstruction dataset and benchmark for safe and comfortable autonomous driving", 2023. [[arXiv](https://arxiv.org/abs/2310.02262)] [[Website](https://thu-rsxd.com/rsrd/)]
 2. **T. Zhao**, M.Y. Ding, W. Zhan, M. Tomizuka, and Y.T. Wei, "Depth-aware Volume Attention for Texture-less Stereo Matching", 2024. [[arXiv](https://arxiv.org/abs/2402.08931)] [[Code](https://github.com/ztsrxh/DVANet)]
+3. **T. Zhao**, L. Yang, Y.C. Xie, M.Y. Ding, M. Tomizuka, and Y.T. Wei, "RoadBEV: Road Surface Reconstruction in Bird's Eye View", 2024. [[arXiv](https://arxiv.org/abs/2404.06605)] [[Code](https://github.com/ztsrxh/RoadBEV)]
 
 **Selected Published Papers**
 1. **T. Zhao**, J.X. He, J.C. Lv, D.L. Min, and Y.T. Wei, "A comprehensive implementation of road surface classification for vehicle driving assistance: Dataset, models, and deployment" ***IEEE Trans. Intell. Transp. Syst.***, 2023. [[Paper](https://doi.org/10.1109/TITS.2023.3264588)] [[Website](https://thu-rsxd.com/rscd/)]
@@ -57,4 +58,4 @@ Publications
 Academic Service
 ======
 
-* Reviewer for IEEE TITS, IEEE TIV, IEEE TVT, Sci. Rep., EAAI, ESWA, KBS, IEEE Access ...
+* Reviewer for IEEE TITS, IEEE TIV, IEEE TVT, Sci. Rep., EAAI, ESWA, KBS ...
