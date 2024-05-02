@@ -63,8 +63,12 @@ Note： Since the experiments under rainy days are hard to conduct & label and a
   <figcaption>Number of images for each class.</figcaption>
 </figure>
 
-## Baseline for downstream applications
-Please refer to our [classification model](https://ieeexplore.ieee.org/abstract/document/10101715) and [friction estimation](https://doi.org/10.1016/j.ymssp.2023.111019) papers for more details.
+## Works based on RSCD
+-   May/2024  T. Ahmed proposed a model named *[EdgeFusionViT](https://ieeexplore.ieee.org/abstract/document/10510402)*.
+-   Jan./2024  We proposed a method to [infer friction coefficient](https://doi.org/10.1016/j.ymssp.2023.111019) with RSCD.
+-   Sep./2023  Y.H. Guo proposed a model named *[Attention-ReXNet](https://ieeexplore.ieee.org/abstract/document/10256482)* based on RSCD.
+-   Sep./2023  J. Wilson used RSCD in his [Master's thesis](https://ecommons.cornell.edu/items/08ae9478-d8f2-4440-8242-19de382464e0) in Cornell Univ.
+-   Aug./2023  We first proposed a baseline [classification model](https://ieeexplore.ieee.org/abstract/document/10101715).
 
 ## Demo Video for road classification
 [<img src="https://img.youtube.com/vi/kp6mNrUpJEo/hqdefault.jpg" width="600" height="450"/>](https://www.youtube.com/embed/kp6mNrUpJEo)
