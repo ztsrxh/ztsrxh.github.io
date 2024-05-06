@@ -143,12 +143,13 @@ BEV: [[Paper]](https://arxiv.org/abs/2404.06605) [[Code]](https://github.com/zts
 ## Citation
 
 ```bibtex
-@article{zhao2023rsrd,
-  title={RSRD: A road surface reconstruction dataset and benchmark for safe and comfortable autonomous driving},
-  author={Zhao, Tong and Xu, Chenfeng and Ding, Mingyu and Tomizuka, Masayoshi and Zhan, Wei and Wei, Yintao},
-  journal={arXiv preprint arXiv:2310.02262},
-  year={2023}
-}
+@ARTICLE{zhao2024rsrd,
+  author={Zhao, Tong and Xie, Yichen and Ding, Mingyu and Yang, Lei and Tomizuka, Masayoshi and Wei, Yintao},
+  journal={Scientific Data}, 
+  title={A road surface reconstruction dataset for autonomous driving}, 
+  year={2024},
+  volume={11},
+  doi={10.1038/s41597-024-03261-9}}
 ```
 
 
