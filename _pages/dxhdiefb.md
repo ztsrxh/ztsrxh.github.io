@@ -39,8 +39,6 @@ RSRD-sparse-part2-half.zip (6.86GB) [Download](https://figshare.com/ndownloader/
 
 [Download](https://figshare.com/ndownloader/files/43161424) the cropped patches.
 
-**Any** questions or potential collaborations, feel free to contact us: zhaot20@berkeley.edu.
-{: .notice--success}
 
 
 
