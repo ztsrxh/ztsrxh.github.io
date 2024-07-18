@@ -41,16 +41,16 @@ Publications
 
 **Preprint**
 1. **T. Zhao**, M.Y. Ding, W. Zhan, M. Tomizuka, and Y.T. Wei, "Depth-aware Volume Attention for Texture-less Stereo Matching", 2024. [[arXiv](https://arxiv.org/abs/2402.08931)] [[Code](https://github.com/ztsrxh/DVANet)]
-2. **T. Zhao**, L. Yang, Y.C. Xie, M.Y. Ding, M. Tomizuka, and Y.T. Wei, "RoadBEV: Road Surface Reconstruction in Bird's Eye View", 2024. [[arXiv](https://arxiv.org/abs/2404.06605)] [[Code](https://github.com/ztsrxh/RoadBEV)]
 
 **Selected Published Papers**
-1. **T. Zhao**, J.X. He, J.C. Lv, D.L. Min, and Y.T. Wei, "A comprehensive implementation of road surface classification for vehicle driving assistance: Dataset, models, and deployment" ***IEEE Trans. Intell. Transp. Syst.***, 2023. [[Paper](https://doi.org/10.1109/TITS.2023.3264588)] [[Website](https://thu-rsxd.com/rscd/)]
-2. **T. Zhao**, P.L. Guo, J.X. He, and Y.T. Wei, "A Hierarchical Scheme of Road Unevenness Perception with LiDAR for Autonomous Driving Comfort", ***IEEE Trans. Intell. Veh.***, 2024. [[Paper](https://doi.org/10.1109/TIV.2023.3337236)] [[Website](https://thu-rsxd.com/rsrd_segmentation/)]
-3. **T. Zhao**, P.L. Guo, and Y.T. Wei, "Road friction estimation based on vision for safe autonomous driving", ***Mech. Syst. Signal Proc.***, 2024. [[Paper](https://doi.org/10.1016/j.ymssp.2023.111019)]
-4. **T. Zhao**, Y.C. Xie, M.Y. Ding, L. Yang, M Tomizuka, and Y.T. Wei, "A road surface reconstruction dataset for autonomous driving", ***Sci. Data***, 2024. [[Paper](https://www.nature.com/articles/s41597-024-03261-9)] [[Website](https://thu-rsxd.com/rsrd/)]
-5. **T. Zhao**, Y.T. Wei, "A road surface image dataset with detailed annotations for driving assistance applications", ***Data in Brief***, 2022. [[Paper](https://doi.org/10.1016/j.dib.2022.108483)]
-6. G.Q. Liang, **T. Zhao**, N.F. Li, J.C. Lv, Y.C. Du, and Y.T. Wei, "Experimental study of road identification by LSTM with application to adaptive suspension damping control", ***Mech. Syst. Signal Proc.***, 2022. [[Paper](https://doi.org/10.1016/j.ymssp.2022.109197)]
-7. G.Q. Liang, **T. Zhao**, Y, Wang, and Y.T. Wei, "Road unevenness identification based on LSTM network", ***Automot. Eng***, 2021.
+1 **T. Zhao**, L. Yang, Y.C. Xie, M.Y. Ding, M. Tomizuka, and Y.T. Wei, "RoadBEV: Road Surface Reconstruction in Bird's Eye View". ***IEEE Trans. Intell. Transp. Syst.***, 2024. [[Paper](https://doi.org/10.1109/TITS.2024.3431671)] [[Code](https://github.com/ztsrxh/RoadBEV)]
+2. **T. Zhao**, J.X. He, J.C. Lv, D.L. Min, and Y.T. Wei, "A comprehensive implementation of road surface classification for vehicle driving assistance: Dataset, models, and deployment" ***IEEE Trans. Intell. Transp. Syst.***, 2023. [[Paper](https://doi.org/10.1109/TITS.2023.3264588)] [[Website](https://thu-rsxd.com/rscd/)]
+3. **T. Zhao**, P.L. Guo, J.X. He, and Y.T. Wei, "A Hierarchical Scheme of Road Unevenness Perception with LiDAR for Autonomous Driving Comfort", ***IEEE Trans. Intell. Veh.***, 2024. [[Paper](https://doi.org/10.1109/TIV.2023.3337236)] [[Website](https://thu-rsxd.com/rsrd_segmentation/)]
+4. **T. Zhao**, P.L. Guo, and Y.T. Wei, "Road friction estimation based on vision for safe autonomous driving", ***Mech. Syst. Signal Proc.***, 2024. [[Paper](https://doi.org/10.1016/j.ymssp.2023.111019)]
+5. **T. Zhao**, Y.C. Xie, M.Y. Ding, L. Yang, M Tomizuka, and Y.T. Wei, "A road surface reconstruction dataset for autonomous driving", ***Sci. Data***, 2024. [[Paper](https://www.nature.com/articles/s41597-024-03261-9)] [[Website](https://thu-rsxd.com/rsrd/)]
+6. **T. Zhao**, Y.T. Wei, "A road surface image dataset with detailed annotations for driving assistance applications", ***Data in Brief***, 2022. [[Paper](https://doi.org/10.1016/j.dib.2022.108483)]
+7. G.Q. Liang, **T. Zhao**, N.F. Li, J.C. Lv, Y.C. Du, and Y.T. Wei, "Experimental study of road identification by LSTM with application to adaptive suspension damping control", ***Mech. Syst. Signal Proc.***, 2022. [[Paper](https://doi.org/10.1016/j.ymssp.2022.109197)]
+8. G.Q. Liang, **T. Zhao**, Y, Wang, and Y.T. Wei, "Road unevenness identification based on LSTM network", ***Automot. Eng***, 2021.
 
 
 ***
@@ -58,4 +58,4 @@ Publications
 Academic Service
 ======
 
-* Reviewer for IEEE TITS, IEEE TIV, IEEE TVT, Sci. Rep., EAAI, ESWA, KBS ...
+* Reviewer for NeurIPS'24, IEEE TITS, IEEE TIV, IEEE TVT, Sci. Rep., EAAI, ESWA, KBS, PR ...
