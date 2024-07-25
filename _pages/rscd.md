@@ -8,6 +8,14 @@ layout: splash
 ---
 <br>
 
+## News for RSCD
+-   July/2024  Ioannis V. Vondikakis proposed *[FedRSC](https://ieeexplore.ieee.org/document/10606293)*, inspiring wider applications in intelligent transportation systems.
+-   May/2024  T. Ahmed proposed a model named *[EdgeFusionViT](https://ieeexplore.ieee.org/abstract/document/10510402)*.
+-   Jan./2024  We proposed a method to [infer friction coefficient](https://doi.org/10.1016/j.ymssp.2023.111019) with RSCD.
+-   Sep./2023  Y.H. Guo proposed a model named *[Attention-ReXNet](https://ieeexplore.ieee.org/abstract/document/10256482)* based on RSCD.
+-   Sep./2023  J. Wilson used RSCD in his [Master's thesis](https://ecommons.cornell.edu/items/08ae9478-d8f2-4440-8242-19de382464e0) in Cornell Univ.
+-   Aug./2023  We first proposed a baseline [classification model](https://ieeexplore.ieee.org/abstract/document/10101715).
+
 # Road Surface Classification Dataset
 
 The prior knowledge of road surface states is essential for improving the safety and ride comfort of autonomous vehicles. Previewing road conditions with vision sensor is verified to be an effective solution. We release this **R**oad **S**urface **C**lassification **D**ataset (RSCD), which is the first dataset in this field containing 1 million image samples with detailed road `material`, `friction` and `unevenness` level annotations.
@@ -62,13 +70,6 @@ Note： Since the experiments under rainy days are hard to conduct & label and a
   <img src="/assets/images/counts-RSCD.jpeg" alt=""></a>
   <figcaption>Number of images for each class.</figcaption>
 </figure>
-
-## Works based on RSCD
--   May/2024  T. Ahmed proposed a model named *[EdgeFusionViT](https://ieeexplore.ieee.org/abstract/document/10510402)*.
--   Jan./2024  We proposed a method to [infer friction coefficient](https://doi.org/10.1016/j.ymssp.2023.111019) with RSCD.
--   Sep./2023  Y.H. Guo proposed a model named *[Attention-ReXNet](https://ieeexplore.ieee.org/abstract/document/10256482)* based on RSCD.
--   Sep./2023  J. Wilson used RSCD in his [Master's thesis](https://ecommons.cornell.edu/items/08ae9478-d8f2-4440-8242-19de382464e0) in Cornell Univ.
--   Aug./2023  We first proposed a baseline [classification model](https://ieeexplore.ieee.org/abstract/document/10101715).
 
 ## Demo Video for road classification
 [<img src="https://img.youtube.com/vi/kp6mNrUpJEo/hqdefault.jpg" width="600" height="450"/>](https://www.youtube.com/embed/kp6mNrUpJEo)
