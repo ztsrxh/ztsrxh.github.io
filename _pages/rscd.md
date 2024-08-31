@@ -8,7 +8,8 @@ layout: splash
 ---
 <br>
 
-## News for RSCD
+## Works based on RSCD
+-   Aug./2024  Binglin Li proposed *[Improved MobileNet V3](https://www.mdpi.com/1424-8220/24/17/5613)* for road adhesion identification.
 -   July/2024  Ioannis V. Vondikakis proposed *[FedRSC](https://ieeexplore.ieee.org/document/10606293)*, inspiring wider applications in intelligent transportation systems.
 -   May/2024  T. Ahmed proposed a model named *[EdgeFusionViT](https://ieeexplore.ieee.org/abstract/document/10510402)*.
 -   Jan./2024  We proposed a method to [infer friction coefficient](https://doi.org/10.1016/j.ymssp.2023.111019) with RSCD.
