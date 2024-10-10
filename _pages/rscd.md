@@ -9,13 +9,14 @@ layout: splash
 <br>
 
 ## Works based on RSCD
+-   Oct./2024  Mohammad Otoofi used RSCD for aiding segmentation and friction estimation in *[FrictionSegNet](https://ieeexplore.ieee.org/abstract/document/10705359)*.
 -   Aug./2024  Binglin Li proposed *[Improved MobileNet V3](https://www.mdpi.com/1424-8220/24/17/5613)* for road adhesion identification.
 -   July/2024  Ioannis V. Vondikakis proposed *[FedRSC](https://ieeexplore.ieee.org/document/10606293)*, inspiring wider applications in intelligent transportation systems.
--   May/2024  T. Ahmed proposed a model named *[EdgeFusionViT](https://ieeexplore.ieee.org/abstract/document/10510402)*.
+-   May/2024  T. Ahmed proposed *[EdgeFusionViT](https://ieeexplore.ieee.org/abstract/document/10510402)*.
 -   Jan./2024  We proposed a method to [infer friction coefficient](https://doi.org/10.1016/j.ymssp.2023.111019) with RSCD.
--   Sep./2023  Y.H. Guo proposed a model named *[Attention-ReXNet](https://ieeexplore.ieee.org/abstract/document/10256482)* based on RSCD.
+-   Sep./2023  Y.H. Guo proposed *[Attention-ReXNet](https://ieeexplore.ieee.org/abstract/document/10256482)* based on RSCD.
 -   Sep./2023  J. Wilson used RSCD in his [Master's thesis](https://ecommons.cornell.edu/items/08ae9478-d8f2-4440-8242-19de382464e0) in Cornell Univ.
--   Aug./2023  We first proposed a baseline [classification model](https://ieeexplore.ieee.org/abstract/document/10101715).
+-   Aug./2023  We first proposed the baseline [classification model](https://ieeexplore.ieee.org/abstract/document/10101715).
 
 # Road Surface Classification Dataset
 
