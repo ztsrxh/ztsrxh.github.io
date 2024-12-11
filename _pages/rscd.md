@@ -8,7 +8,9 @@ layout: splash
 ---
 <br>
 
-## Works based on RSCD
+## Works on RSCD
+-   Dec./2024  Yuyi Chen proposed a novel *[multi-task learning](
+https://doi.org/10.1016/j.eswa.2024.125978)* method, validating on RSCD and self-built MRSD.
 -   Oct./2024  Mohammad Otoofi used RSCD for aiding segmentation and friction estimation in *[FrictionSegNet](https://ieeexplore.ieee.org/abstract/document/10705359)*.
 -   Aug./2024  Binglin Li proposed *[Improved MobileNet V3](https://www.mdpi.com/1424-8220/24/17/5613)* for road adhesion identification.
 -   July/2024  Ioannis V. Vondikakis proposed *[FedRSC](https://ieeexplore.ieee.org/document/10606293)*, inspiring wider applications in intelligent transportation systems.
