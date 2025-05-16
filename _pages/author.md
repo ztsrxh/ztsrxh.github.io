@@ -18,7 +18,7 @@ gallery:
 
 <br>
 
-I am Tong Zhao, pursuing Ph.D. degree at the School of Vehicle and Mobility, Tsinghua University, under the supervision of Prof. Yintao Wei. I am a visiting student at the [MSC Lab](https://msc.berkeley.edu/) in UC Berkeley, under the supervision of Prof. Masayoshi Tomizuka. I received my Bachelor degree from Xiamen University (XMU) in 2020. 
+I am Tong Zhao, pursuing Ph.D. degree at the School of Vehicle and Mobility, Tsinghua University, under the supervision of Prof. Yintao Wei. I am also a visiting student at the [MSC Lab](https://msc.berkeley.edu/) in UC Berkeley, under the supervision of Prof. Masayoshi Tomizuka. I received my Bachelor degree from Xiamen University (XMU) in 2020. 
 
 My research topics include environment perception especially road surface conditions for unmanned ground vehicles, aiming at safer and more comfortable autonomous driving.
 I am interested in 3D vision technologies, with their applications in practical engineering tasks.
@@ -40,7 +40,8 @@ Publications
 ======
 
 **Preprint**
-1. **T. Zhao**, M.Y. Ding, W. Zhan, M. Tomizuka, and Y.T. Wei, "Depth-aware Volume Attention for Texture-less Stereo Matching", 2024. [[arXiv](https://arxiv.org/abs/2402.08931)] [[Code](https://github.com/ztsrxh/DVANet)]
+1. W.H. Wu, **T. Zhao<sup>\*</sup>**, C.S. Peng, L. Yang, Y.T. Wei, Z. Liu, H.S. Wang<sup>\*</sup>, "BEV-GS: Feed-forward Gaussian Splatting in Bird's-Eye-View for Road Reconstruction", 2025. [[arXiv](https://arxiv.org/abs/2504.13207)] [[Code](https://github.com/cat-wwh/BEV-GS)]
+2. **T. Zhao**, M.Y. Ding, W. Zhan, M. Tomizuka, and Y.T. Wei, "Depth-aware Volume Attention for Texture-less Stereo Matching", 2024. [[arXiv](https://arxiv.org/abs/2402.08931)] [[Code](https://github.com/ztsrxh/DVANet)]
 
 **Selected Published Papers**
 1. **T. Zhao**, L. Yang, Y.C. Xie, M.Y. Ding, M. Tomizuka, and Y.T. Wei, "RoadBEV: Road Surface Reconstruction in Bird's Eye View". ***IEEE Trans. Intell. Transp. Syst.***, 2024. [[Paper](https://doi.org/10.1109/TITS.2024.3431671)] [[Code](https://github.com/ztsrxh/RoadBEV)]
@@ -58,4 +59,4 @@ Publications
 Academic Service
 ======
 
-* Reviewer for NeurIPS'24, IEEE TITS, IEEE TIV, IEEE TVT, Sci. Rep., EAAI, ESWA, KBS, PR ...
+* Reviewer for NeurIPS'24, ICLR'25, IEEE RAL, IEEE TITS, IEEE TIV, EAAI, ESWA, KBS, PR ...
