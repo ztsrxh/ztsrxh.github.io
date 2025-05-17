@@ -23,6 +23,17 @@ I am Tong Zhao, pursuing Ph.D. degree at the School of Vehicle and Mobility, Tsi
 My research topics include environment perception especially road surface conditions for unmanned ground vehicles, aiming at safer and more comfortable autonomous driving.
 I am interested in 3D vision technologies, with their applications in practical engineering tasks.
 
+<div align='center'>
+    <span style="font-family: Georgia, serif; font-size: 15px">May, 2025 - I have graduated. I may not continue my research. </span>
+</div>
+<div align='center'>
+    <span style="font-family: Georgia, serif; font-size: 15px"> It will be my great honor if my work helps your research, </span>
+</div>
+<div align='center'>
+    <span style="font-family: Georgia, serif; font-size: 15px"> as it at least proved that I once contributed to academia. </span>
+</div>
+
+
 ***
 
 Education
