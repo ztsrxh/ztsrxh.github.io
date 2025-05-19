@@ -30,7 +30,7 @@ I am interested in 3D vision technologies, with their applications in practical 
     <span style="font-family: Georgia, serif; font-size: 22px"> It will be my great honor if my work helps your research, </span>
 </div>
 <div align='center'>
-    <span style="font-family: Georgia, serif; font-size: 22px"> as it at least proves that I once contributed to academia. </span>
+    <span style="font-family: Georgia, serif; font-size: 22px"> as it at least indicates that I once contributed to academia. </span>
 </div>
 
 
